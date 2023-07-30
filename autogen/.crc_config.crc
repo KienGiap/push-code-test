@@ -1,0 +1,21 @@
+#CRC Codes for initially generated config files -- do not modify!
+FreeRTOSConfig.h=1297088234
+app_assert_config.h=1351236558
+emlib_core_debug_config.h=-551881347
+glib_config.h=-1968868481
+sl_board_control_config.h=1392674931
+sl_debug_swo_config.h=-1563780709
+sl_device_init_dcdc_config.h=1955081430
+sl_device_init_emu_config.h=622680131
+sl_device_init_hfxo_config.h=-286419847
+sl_i2cspm_sensor_config.h=-1477973331
+sl_joystick_config.h=1989413033
+sl_memlcd_usart_config.h=1522037521
+sl_memory_config.h=687128566
+sl_mx25_flash_shutdown_usart_config.h=-283838364
+sl_simple_button_btn0_config.h=1861052192
+sl_simple_button_btn1_config.h=-1501126694
+sl_simple_button_config.h=749824782
+sl_simple_led_led0_config.h=369987752
+sl_simple_led_led1_config.h=644325545
+sl_sleeptimer_config.h=1360009810

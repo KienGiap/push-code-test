@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.ZGM230SB27HGN" partId="mcu.arm.efr32.zg23.zgm230sb27hgn" contextId="com.silabs.sdk.stack.super:4.3.0._-490915027">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="GPIO" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
+    <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C1" propertyId="ABModule.selectedRequirement" value="i2c%T%SL_I2CSPM_SENSOR%T%sl_i2cspm_sensor_config.h"/>
+    <property object="I2C1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PA00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_JOYSTICK%T%sl_joystick_config.h"/>
+    <property object="PA00" propertyId="pin.name" value="joystick"/>
+    <property object="PA00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA08" propertyId="pin.name" value="joy"/>
+    <property object="PA09" propertyId="pin.name" value="Joystick"/>
+    <property object="PB00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_VCOM%T%sl_board_control_config.h"/>
+    <property object="PB00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_BTN0%T%sl_simple_button_btn0_config.h"/>
+    <property object="PB01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED0%T%sl_simple_led_led0_config.h"/>
+    <property object="PB02" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_BTN1%T%sl_simple_button_btn1_config.h"/>
+    <property object="PB03" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_MX25_FLASH_SHUTDOWN_CS%T%sl_mx25_flash_shutdown_usart_config.h"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC06" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_MEMLCD_EXTCOMIN%T%sl_memlcd_usart_config.h"/>
+    <property object="PC06" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_MEMLCD_SPI_CS%T%sl_memlcd_usart_config.h"/>
+    <property object="PC08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC09" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_DISPLAY%T%sl_board_control_config.h"/>
+    <property object="PC09" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_SENSOR_RHT%T%sl_board_control_config.h"/>
+    <property object="PD00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED1%T%sl_simple_led_led1_config.h"/>
+    <property object="PD03" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c1.enable.scl" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c1.enable.sda" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.i2c1.location.scl" value="37"/>
+    <property object="PORTIO" propertyId="portio.i2c1.location.sda" value="39"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.clk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.clk" value="35"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="33"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_MEMLCD_SPI%T%sl_memlcd_usart_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
